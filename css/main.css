@@ -1,0 +1,274 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+html body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+
+
+}
+
+.header {
+
+}
+
+.logo {
+    margin: 10px 0;
+    float: left;
+}
+
+.sprite-logo {
+    width: 150px;
+    height: 14px;
+    background-image: url('/vanille/img/logo-line.png');
+
+}
+
+.sprite-logo:hover {
+    background-position: 0 14px;
+}
+
+
+.address {
+    margin: 23px 0;
+    float: right;
+    font-size: 18px;
+    font-family: "Caviar dreams", Courier, monospace;
+}
+
+.address p {
+    float: right;
+}
+
+.address span {
+    margin: 0 7px;
+    display: inline-block;
+    width: 15px;
+    height: 13px;
+    background-image: url('/vanille/img/phone-number.png');
+}
+
+
+.address a {
+    text-decoration: none;
+    color: #303AFF;
+    border-bottom: 1px solid rgba(113, 128, 255, 0.51);
+    margin: 0 5px;
+    padding-bottom: 2px;
+}
+
+.address a:hover {
+    text-decoration: none;
+    color: rgba(255, 35, 5, 0.66);
+    border-bottom: 1px solid rgba(255, 35, 5, 0.66);;
+    padding-bottom: 2px;
+    margin: 0 5px;
+}
+
+.menu {
+    margin: 20px 0;
+}
+
+.menu ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu li {
+    padding-right: 20px;
+    display: inline;
+}
+
+.menu li a {
+    text-decoration: none;
+    border-bottom: 1px solid rgba(161, 151, 152, 0.51);
+    padding-bottom: 2px;
+    color: #919191;
+}
+
+.menu li a:hover {
+    color: rgba(255, 35, 5, 0.66);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255, 35, 5, 0.66);;
+    padding-bottom: 2px;
+
+}
+
+.wave-line {
+    height: 5px;
+    background-image: url('/vanille/img/wave-line.png');
+
+}
+
+h1 {
+    margin: 0;
+    font-family: "Caviar dreams", Courier, monospace;
+}
+
+.selection {
+    margin: 0;
+}
+
+
+.selection ul {
+    padding: 16px 0;
+    font-size: 15px;
+}
+
+.selection li a {
+    text-decoration: none;
+    color: #303AFF;
+    border-bottom: 1px solid rgba(113, 128, 255, 0.51);
+    padding-bottom: 2px;
+}
+
+.selection li a:hover {
+    color: rgba(255, 35, 5, 0.66);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255, 35, 5, 0.66);;
+    padding-bottom: 2px;
+}
+
+.selection li a:active {
+    padding: 3px;
+    border: 1px solid #e99822;
+    border-radius: 4px;
+    background-color: #e99822;
+    background-image: url('/vanille/img/bg-active.png');
+    color: white;
+}
+
+
+.workarea {
+    margin: 10px 0;
+    min-height: 100%
+}
+
+.active-position {
+    margin: 10px 20px 10px 0    ;
+    float: left;
+    width: 250px;
+    border: 3px solid #E99822;
+    border-radius: 5px;
+}
+
+.active-position h3 {
+    font-weight: normal;
+    padding: 10px 5px;
+}
+
+
+.active-position p {
+    font-size: 12px;
+    padding: 10px 5px;
+}
+
+.active-position img {
+    width: 240px;
+    height: 240px;
+    padding: 5px;
+}
+
+.goods-table {
+    max-width: 644px;
+    float: right;
+}
+
+.pickouter {
+    padding: 2px;
+    background-image: url('/vanille/img/bg-active.png');
+    color: #ffffff;
+    border-radius: 3px;
+}
+
+
+.goods {
+    float: left;
+    width: 150px;
+    margin: 10px 5px;
+}
+
+.goods div {text-align: center;}
+
+.goods a {
+    font-size: 14px;
+    line-height: 1.6;
+    text-decoration: none;
+    color: #303AFF;
+    border-bottom: 1px dashed rgba(113, 128, 255, 0.51);
+    padding-bottom: 2px;
+}
+
+.goods a:hover {
+    text-decoration: none;
+    color: rgba(255, 35, 5, 0.66);
+    border-bottom: 1px dashed rgba(255, 35, 5, 0.66);
+    padding-bottom: 2px;
+}
+
+.clearfixer:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.fixed-position {
+    margin: 10px 20px 10px 0    ;
+    float: left;
+    width: 250px;
+    border: 3px solid #E99822;
+    border-radius: 5px;
+    position: fixed;
+    top: 5px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    clear: both;
+
+}
+
+
+.footer ul {
+    padding-top: 20px;
+    list-style-type: none;
+}
+
+.footer li {
+    display: inline;
+    padding-right: 20px;
+    font-size: 12px;
+}
+
+.footer a {
+    text-decoration: none;
+    border-bottom: 1px solid rgba(113, 128, 255, 0.51);
+    padding-bottom: 2px;
+    color: #303AFF;
+}
+
+.footer a:hover {
+    color: rgba(255, 35, 5, 0.66);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255, 35, 5, 0.66);;
+    padding-bottom: 2px;
+}
